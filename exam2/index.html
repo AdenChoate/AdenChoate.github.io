@@ -1,26 +1,206 @@
 <html>
 <head>
-    <title>MIS 3033 Exam 2 Spring 2024 [Exam Code Here] Aden Choate</title>
-    <link rel="icon" href="static/img/head1.png"/>
-    <link rel="stylesheet" href="static/site.css"/>
+    <title>MIS 3033 Exam 2 Spring 2024 [PFPS] Aden Choate</title>
+    <link rel="icon" href="static/img/head1.png" />
+    <link rel="stylesheet" href="static/site.css" />
 
     <style>
+
+        .border
+        {
+            border-style:solid;
+            border-width:1px;
+            border-color:lightgrey;
+            border-radius:5px;
+        }
+
+        .title1
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius:5px;
+        }
+
+        #main
+        {
+            width:800px;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+        #header
+        {
+            display:flex;
+            flex-direction:row;
+            justify-content:right;
+        }
+
+        #content1
+        {
+            display:flex;
+            flex-direction:row;
+            height:80px;
+            align-items:center;
+        }
+
+        #content2
+        {
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:center;
+        }
+
+        #leftdiv
+        {
+            width:280px;
+            height:270px;
+        }
+
+        #rightdiv
+        {
+
+        }
+
+        #upper
+        {
+            width:510px;
+            height:110px;
+        }
+
+        #lower
+        {
+            width:510px;
+            height:160px;
+        }
+
+        #footer
+        {
+            height:60px;
+            display:flex;
+            flex-direction:row;
+            justify-content:end;
+        }
+
+        #footertext
+        {
+            font-weight:bold;
+            font-size:20px;
+            color:grey;
+            align-content:center;
+            margin-right:20px;
+        }
 
     </style>
 </head>
 
 <body>
-    [Exam Code]
-    <img src="static/img/a.svg" style="height:50px;"/>
-    <img src="static/img/b.svg" style="height:50px;"/>
-    <img src="static/img/css.svg" style="height:50px;"/>
-    <img src="static/img/head1.png" style="height:50px;"/>
-    <img src="static/img/head2.png" style="height:50px;"/>
-    <img src="static/img/html.svg" style="height:50px;"/>
-    <img src="static/img/javascript.svg" style="height:50px;"/>
-    <img src="static/img/linkedin.png" style="height:50px;"/>
-    <img src="static/img/logo.svg" style="height:50px;"/>
-    <img src="static/img/sqlite.svg" style="height:50px;"/>
+    [PFPS]
+
+    <div id="main">
+
+        <div id="header">
+
+            <div class="border" style="width:200px;height:70px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+                MIS 3033 Exam 2
+                <br />
+                Aden Choate
+            </div>
+            
+            <div class="border" style="width:200px;height:70px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+                [PFPS]
+            </div>
+
+        </div>
+
+        <div id="content1" class="border">
+
+            <div style="margin-left:20px;">
+                <img src="static/img/head1.png" style="height:60px;border-radius:50%;" />
+            </div>
+
+            <div style="margin-left:10px;">
+                Aden Choate
+                <br />
+                MIS Student
+               
+            </div>
+            <a href="https://www.linkedin.com/" target="_blank" style="margin-left:30px;">
+                <img src="static/img/linkedin.png" style="width:30px;" />
+            </a>
+            
+        </div>
+
+        <div id="content2">
+
+            <div id="leftdiv" class="border">
+                
+                <span class="title1">recent news:</span>
+                <br /><br />
+
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>Learned <img src="static/img/sqlite.svg" style="height:40px;" /></li>
+                </ul>
+            </div>
+
+            <div id="rightdiv">
+
+                <div id="upper" class="border">
+                    <span class="title1">about me:</span>
+                    <br />
+                    I am an MIS student. I like programming and I am good at C#. I learned Entity Framework to Database Manipulation. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC dynamic web app development and Web API development.
+                </div>
+
+                <div id="lower" class="border">
+                    <span class="title1">achievements</span>
+                    <br />
+                    <br />
+                    <div style="display:flex;flex-direction:row;justify-content:center;">
+
+                        <div class="border" style="text-align:center;">
+                            <img src="static/img/html.svg" style="height:100px;" />
+                            <br />
+                            HTML
+                        </div>
+
+                        <div class="border" style="text-align:center;">
+                            <img src="static/img/css.svg" style="height:100px;" />
+                            <br />
+                            CSS
+                        </div>
+
+                        <div class="border" style="text-align:center;">
+                            <img src="static/img/javascript.svg" style="height:100px;" />
+                            <br />
+                            JavaScript
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="footer" class="border">
+            <div id="footertext">
+            Developed by Aden Choate for MIS 3033 Exam 2
+            </div>
+
+            <div style="align-content:center">
+                <img src="static/img/logo.svg" style="height:50px;" />
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
 
 </body>
 
