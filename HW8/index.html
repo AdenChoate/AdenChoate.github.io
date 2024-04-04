@@ -5,29 +5,19 @@
     <title>HW 8 MIS 3033</title>
 
     <style>
+        
         #main
         {
-            /*background-color:lightblue;*/
-            width:1200px;
-            margin-left:auto;
-            margin-right:auto;
+        width:1200px;
+        margin-left:auto;
+        margin-right:auto;
         }
 
         #header
         {
-            /*background-color:lightcoral;*/
             color:dodgerblue;
             font-size:20pt;
             font-weight:bold;
-        }
-
-        #footer
-        {
-            background-color:#faf7f7;
-            color:dimgrey;
-            display:flex;
-            flex-direction:row;
-            justify-content:center;
         }
 
         #content1
@@ -36,21 +26,8 @@
             flex-direction:row;
         }
 
-        #content2
+        #leftc1
         {
-            /*background-color:#ededed;*/
-
-        }
-
-        .title1
-        {
-            font-size:30px;
-            font-weight:bold;
-        }
-
-        #leftdiv
-        {
-            /*background-color:lightgreen;*/
             width:400px;
             display:flex;
             flex-direction:column;
@@ -58,32 +35,38 @@
             justify-content:center;
         }
 
-        #rightdiv
+        #rightc1
         {
-            /*background-color:lightgoldenrodyellow;*/
             width:800px;
         }
 
-        #updiv
+        #upperrightc1
         {
-            /*background-color:lightseagreen;*/
+
         }
 
-        #downdiv
+        #lowerrightc1
         {
-            /*background-color:mediumpurple;*/
             display:flex;
             flex-direction:row;
         }
 
-        #idiv
+        #content2
         {
-            /*background-color:deeppink;*/
+            background-color:#ededed;
         }
 
-        #ediv
+        #footer
         {
-            /*background-color:blue;*/
+            background-color:#faf7f7;
+            text-align:center;
+            color:dimgray;
+        }
+
+        .title1
+        {
+            font-weight:bold;
+            font-size:30px;
         }
 
     </style>
@@ -91,131 +74,138 @@
 </head>
 
 <body>
+    
     <div id="main">
+    
         <div id="header">
             Aden Choate's Website
         </div>
-
+    
         <div id="content1">
-            <div id="leftdiv">
+
+            <div id="leftc1">
+
                 <div>
-                    <img src="static/head1.png" style="width:200px;border-radius:50%;"/>
+                    <img src="static/head1.png" style="border-radius:50%;width:200px;" />
                 </div>
 
-                <div style="font-size:30px;">
-                    Aden Choate
+                <div>
+                    <span style="font-size:30px;">Aden Choate</span>
                 </div>
 
-                <div style="font-size:20px;color:dimgrey;">
+                <div style="color:dimgray; font-size:20px;">
                     Student in Management Information Systems
                 </div>
 
-                <div style="font-size:20px;color:dimgrey;">
+                <div style="color: dimgray; font-size:20px;">
                     The University of Oklahoma
                 </div>
 
                 <div>
                     <a href="mailto:aden.c.choate-1@ou.edu" target="_blank">
-                        <img src="static/email.png" style="width:30px;" />
+                        <img src="static/email.png" style="width:30px;"/>
                     </a>
 
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com" target="_blank">
                         <img src="static/linkedin.png" style="width:30px;" />
                     </a>
 
                     <a href="https://twitter.com/" target="_blank">
-                        <img src="static/twitter.png" style="width:30px;" />
+                        <img src="static/twitter.png" style="width:30px;"/>
                     </a>
 
                     <a href="https://www.instagram.com" target="_blank">
-                        <img src="static/instagram.png" style="width:30px;" />
+                        <img src="static/instagram.png" style="width:30px;"/>
                     </a>
 
                 </div>
 
             </div>
 
-            <div id="rightdiv">
+            <div id="rightc1">
 
-                <div id="updiv">
+                <div id="upperrightc1">
+
                     <span class="title1">Biography</span>
                     <br />
                     <br />
 
-                    I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.<br /><br />
-
-                    My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.<br /><br />
-
-                    For more information, please refer to my 
-                    <a href="static/CV.pdf" target="_blank" >CV</a>.
+                    I am a senior student in Management Information Systems at the University of Oklahoma. I am on the 2022/2023 job market.
                     <br />
                     <br />
+
+                    My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+                    <br />
+                    <br />
+
+                    For more information please refer to my 
+                    <a href="static/CV.pdf" target="_blank">CV</a>
+                    <br />
+                    <br />
+
                 </div>
 
-                <div id="downdiv">
+                <div id="lowerrightc1">
 
-                    <div id="idiv">
-                        <span class="title1">
-                            Interests
-                        </span>
+                    <div>
+
+                        <span class="title1">Interests</span>
+                        <br />
 
                         <ol>
                             <li>Analyst/Programmer</li>
                             <li>Business Analyst</li>
-                            <li>Database Administration</li>
+                            <li>Database Administrator</li>
                             <li>Web Developer</li>
                             <li>Data Scientists</li>
-
                         </ol>
-
                     </div>
 
-                    <div id="ediv">
+                    <div>
+
                         <span class="title1">Education</span>
 
                         <ul>
                             <li>
-                                M.S. in Management Information Systems, 2024<br/>
+                                M.S. in Management Information Systems, 2024<br />
                                 The University of Oklahoma
                             </li>
-
                             <li>
-                                B.E. in Management Information Systems, 2022<br/>
+                                B.E. in Management Information Systems, 2022<br />
                                 The University of Oklahoma
                             </li>
-
                         </ul>
 
                     </div>
 
+                   
                 </div>
-
-
 
             </div>
 
-
-
         </div>
-
+    
         <div id="content2">
+
             <span class="title1">Recent News</span>
+            <br />
 
             <ul>
-                <li>
-                    Learning C# Web Application Design
-                </li>
-                <li>
-                    Learning C# EF
-                </li>
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# WPF</li>
             </ul>
+            <br />
 
         </div>
-
+    
         <div id="footer">
             Designed and Published by Aden Choate
         </div>
+    
     </div>
+
+
+
 </body>
 
 </html>
